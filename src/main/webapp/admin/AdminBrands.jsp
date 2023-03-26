@@ -80,6 +80,63 @@
 <body style="background-color: #f0f2f2;">
 <%@include file="navbar.jsp"%>
 
+<div class="wrapper">
+
+
+
+  <div class="main_content">
+    <div class="header">Brands</div>
+    <div class="info">
+
+      <!-- Show brands list load from table and show text box and button to add new brand -->
+      <div>
+
+
+        <!--Form to add new brand -->
+        <form action="insertBrand" method="post">
+          <label for="brandName">Brand Name</label>
+          <input type="text" id="brandName" name="brandName" placeholder="Enter new brand name here.." required maxlength="45" >
+
+          <input type="submit" value="Add">
+        </form>
+        <!--End of Form to add new brand -->
+
+
+        <!-- View Brands Table here -->
+        <table id="brands">
+
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th> </th>
+          </tr>
+
+          <c:forEach var = "brand" items="${brandList}">
+
+
+            <c:set var="id" value="${brand.ID}"/>
+            <c:set var="name" value="${brand.name}"/>
+
+
+            <tr>
+              <td>${id}</td>
+              <td>${name}</td>
+              <td> <a href="deleteBrand?id=${id}" onclick="return confirm('Are you sure you want to delete the brand \'${brand.name}\' ?');" ><img src="img/delete.png" height="16" alt="Delete"></a> </td>
+            </tr>
+
+
+          </c:forEach>
+
+        </table>
+        <!-- End of View Brands Table -->
+
+      </div>
+      <!-- Show brands list load from table and show text box and button to add new brand -->
+
+    </div>
+  </div>
+
+</div>
 
 
 
