@@ -17,7 +17,7 @@ public class BrandServlet extends HttpServlet {
         List<Brand> brandList = BrandDBUtil.getBrandList();
         request.setAttribute("brandList",brandList);
 
-        RequestDispatcher requestDispatcher = request.getRequestDispatcher("AdminBrands.jsp");
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("admin/AdminBrands.jsp");
         requestDispatcher.forward(request,response);
     }
 

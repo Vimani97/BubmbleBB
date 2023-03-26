@@ -6,6 +6,8 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@page isELIgnored="false" %>
 <html>
 <head>
 
@@ -67,7 +69,8 @@
 
     input[type=submit]:hover {
       background-color: #171717;
-      color: white;
+     color: white;
+
     }
 
 
@@ -79,6 +82,10 @@
 </head>
 <body style="background-color: #f0f2f2;">
 <%@include file="navbar.jsp"%>
+<c:if test="${empty userobj}">
+  <c:redirect url="../login.jsp"/>
+</c:if>
+
 
 <div class="wrapper">
 
@@ -91,9 +98,24 @@
       <!-- Show brands list load from table and show text box and button to add new brand -->
       <div>
 
+        <%----%>
+
+          <c:if test="${not empty succMsg}">
+            <p class="text-center text-success">${succMsg}</p>
+            <c:remove var="succMsg" scope="session"/>
+          </c:if>
+
+          <c:if test="${not empty failedMsg}">
+            <p class="text-center text-danger">${failedMsg}</p>
+            <c:remove var="failedMsg" scope="session"/>
+          </c:if>
+
+        <%----%>
+
+
 
         <!--Form to add new brand -->
-        <form action="insertBrand" method="post">
+        <form action="../insertBrand" method="post">
           <label for="brandName">Brand Name</label>
           <input type="text" id="brandName" name="brandName" placeholder="Enter new brand name here.." required maxlength="45" >
 
@@ -121,7 +143,7 @@
             <tr>
               <td>${id}</td>
               <td>${name}</td>
-              <td> <a href="deleteBrand?id=${id}" onclick="return confirm('Are you sure you want to delete the brand \'${brand.name}\' ?');" ><img src="img/delete.png" height="16" alt="Delete"></a> </td>
+              <td> <a href="deleteBrand?id=${id} " class="btn btn-sm btn-dark text-warning" onclick="return confirm('Are you sure you want to delete the brand \'${brand.name}\' ?');" ><i class="fa-solid fa-trash-can"></i>  DELETE</a> </td>
             </tr>
 
 
@@ -139,7 +161,9 @@
 </div>
 
 
-
+<div style="margin-top: 260px;">
+  <%@include file="footer.jsp"%>
+</div>
 
 </body>
 </html>
