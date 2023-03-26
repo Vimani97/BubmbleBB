@@ -65,6 +65,7 @@ public class BrandDBUtil {
 
             String sql = "INSERT INTO brands VALUES (0,'"+brandName+"')";
 
+
             int rs = stmt.executeUpdate(sql);
 
             if(rs>0)
@@ -96,9 +97,9 @@ public class BrandDBUtil {
             conn = DBConnection.getConn();
             stmt = conn.createStatement();
 
-            //int convertedID = Integer.parseInt(id);
+            int convertedID = Integer.parseInt(id);
 
-            String sql = "DELETE FROM brands  WHERE  id=?";
+            String sql = "DELETE FROM brands  WHERE  ID='"+convertedID+"' ";
 
             int rs = stmt.executeUpdate(sql);
 

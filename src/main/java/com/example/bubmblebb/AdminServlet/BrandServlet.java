@@ -31,7 +31,7 @@ public class BrandServlet extends HttpServlet {
 
         if(isTrue == true)
         {
-            // Redirect to AdminBrandsServlet
+            // Redirect to BrandsServlet
             response.sendRedirect(request.getContextPath() + "/Brands");
         }
         else
