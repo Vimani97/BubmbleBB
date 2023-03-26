@@ -87,6 +87,39 @@ public class BrandDBUtil {
     }
     ///End of Function use to insert------------------------------------------------------------------------------------
 
+    ///function use to delete the brand from db----------------------------------------------------------------------
+    public static boolean deleteBrand(String id)
+    {
+        try
+        {
+
+            conn = DBConnection.getConn();
+            stmt = conn.createStatement();
+
+            //int convertedID = Integer.parseInt(id);
+
+            String sql = "DELETE FROM brands  WHERE  id=?";
+
+            int rs = stmt.executeUpdate(sql);
+
+            if(rs>0)
+            {
+                isSuccess = true;
+            }
+            else
+            {
+                isSuccess = false;
+            }
+
+        }
+        catch (Exception ex)
+        {
+            ex.printStackTrace();
+        }
+
+        return  isSuccess;
+    }
+    ///End of function use to delete the brand from db---------------------------------------------------------------
 
 
 
