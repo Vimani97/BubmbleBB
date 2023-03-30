@@ -58,3 +58,7 @@
 ### Admin Home Page
 
 ![img_6.png](img_6.png)
+
+### Admin Add Products Page
+
+![img_7.png](img_7.png)
