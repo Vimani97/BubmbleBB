@@ -29,7 +29,7 @@
 
 <table class="table table-striped table-hover table-bordered">
     <thead class="bg-info">
-    <tr class="text-center text-white">
+    <tr class="text-center bg-dark text-warning">
         <th scope="col">Oder Id</th>
         <th scope="col">Name</th>
         <th scope="col">Email</th>
