@@ -78,3 +78,7 @@
 ### Admin Add Brands
 
 ![img_11.png](img_11.png)
+
+### Logout
+
+![img_12.png](img_12.png)
