@@ -90,3 +90,7 @@
 ### View Customer Orders
 
 ![img_14.png](img_14.png)
+
+### customer Edit Profile Page
+
+![img_15.png](img_15.png)
