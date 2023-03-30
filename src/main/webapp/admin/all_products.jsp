@@ -34,7 +34,7 @@
 
 <table class="table table-striped table-hover table-bordered">
     <thead class="bg-info">
-    <tr class="text-center text-white">
+    <tr class="text-center bg-dark text-warning">
 
         <th scope="col">ID</th>
         <th scope="col">Image</th>
