@@ -60,7 +60,7 @@
                                 <div class="text-primary">
                                     <i class="fa-solid fa-clipboard fa-3x"></i>
                                 </div>
-                                <h4>Sell Old Products</h4>
+                                <h4>Edit Old Products</h4>
                             </div>
                         </div>
                     </a>
