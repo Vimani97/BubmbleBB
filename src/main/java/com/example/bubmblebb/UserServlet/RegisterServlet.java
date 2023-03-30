@@ -59,7 +59,7 @@ public class RegisterServlet extends HttpServlet {
                 }
             }
             else {
-                session.setAttribute("failedMsg","Please Check Agree & Terms");
+                session.setAttribute("failedMsg","Sorry! Persons under the age of 18 cannot register.");
                 response.sendRedirect("register.jsp");
                    // System.out.println("Please Check Agree & Terms");
                 }
