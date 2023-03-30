@@ -62,3 +62,7 @@
 ### Admin Add Products Page
 
 ![img_7.png](img_7.png)
+
+### Admin All Products Page
+
+![img_8.png](img_8.png)
