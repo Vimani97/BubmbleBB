@@ -42,3 +42,7 @@
 ### New Products Page
 
 ![img_2.png](img_2.png)
+
+### Old Products Page
+
+![img_3.png](img_3.png)
