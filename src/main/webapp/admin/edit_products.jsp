@@ -81,7 +81,7 @@
 
 
 
-                        <button type="submit" class="btn btn-primary">Update Product</button>
+                        <button type="submit" class="btn btn-dark text-warning">Update Product</button>
 
 
                     </form>
