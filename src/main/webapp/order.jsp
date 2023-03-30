@@ -29,7 +29,7 @@
         <h5 class="text-center text-primary mt-2"> Your Order</h5>
         <div class="container p-1">
             <table class="table table-striped mt-3">
-                <thead class="bg-primary text-white">
+                <thead class="bg-dark text-warning">
                 <tr>
                     <th scope="col">Order Id</th>
                     <th scope="col">Name</th>
