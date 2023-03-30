@@ -100,7 +100,7 @@
                                     id="exampleFormControlFiled1">
                                 </div>
 
-                                    <button type="submit" class="btn btn-primary">Add Product</button>
+                                    <button type="submit" class="btn btn-dark text-warning">Add Product</button>
 
 
                             </form>
