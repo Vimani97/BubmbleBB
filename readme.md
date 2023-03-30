@@ -82,3 +82,7 @@
 ### Logout
 
 ![img_12.png](img_12.png)
+
+### Customer Cart details and Order Process
+
+![img_13.png](img_13.png)
