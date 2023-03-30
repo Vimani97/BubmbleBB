@@ -70,3 +70,6 @@
 ### Admin Edit Products
 
 
+### Admin View Customer Orders
+
+![img_9.png](img_9.png)
