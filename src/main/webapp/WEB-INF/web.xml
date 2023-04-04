@@ -3,4 +3,39 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+
+    <servlet>
+        <servlet-name>Brands</servlet-name>
+        <servlet-class>com.example.bubmblebb.AdminServlet.BrandServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Brands</servlet-name>
+        <url-pattern>/Brands</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>insertBrand</servlet-name>
+        <servlet-class>com.example.bubmblebb.AdminServlet.BrandServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>insertBrand</servlet-name>
+        <url-pattern>/insertBrand</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>deleteBrand</servlet-name>
+        <servlet-class>com.example.bubmblebb.AdminServlet.DeleteBrandServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteBrand</servlet-name>
+        <url-pattern>/deleteBrand</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
 </web-app>

@@ -32,7 +32,7 @@
 
 <div class="container p-5">
             <table class="table table-striped">
-                <thead class="bg-primary text-white">
+                <thead class="bg-dark text-warning">
                 <tr>
                     <th scope="col">Product Name</th>
                     <th scope="col">Brand Name</th>

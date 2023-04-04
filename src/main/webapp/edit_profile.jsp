@@ -76,7 +76,7 @@
                                required="required" name="upass">
                       </div>
 
-                      <button type="submit" class="btn btn-primary">Update</button>
+                      <button type="submit" class="btn btn-dark text-warning">Update</button>
                     </form>
 
                   </div>

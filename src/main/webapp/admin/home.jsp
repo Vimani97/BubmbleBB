@@ -84,7 +84,7 @@
 
                 <%--2nd row--%>
                 <div class="col-md-12 mt-3">
-                    <a href="helpLine.jsp">
+                    <a href="AdminBrands.jsp">
                         <div class="card">
                             <div class="card-body text-center">
                                 <div class="text-success">

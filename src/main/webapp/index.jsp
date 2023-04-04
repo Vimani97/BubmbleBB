@@ -46,7 +46,7 @@
         List<ProductDetails> list2 = dao2.getRecentProducts();
         for (ProductDetails p : list2){
     %>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="card crd-ho">
                 <div class="card-body text-center">
                     <img alt="" src="products/<%=p.getPhotoName()%>"
@@ -118,7 +118,7 @@
            List<ProductDetails> list = dao.getNewProduct();
            for (ProductDetails p : list){
         %>
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card crd-ho">
             <div class="card-body text-center">
                 <img alt="" src="products/<%=p.getPhotoName()%>"
@@ -165,7 +165,7 @@
 <hr>
 
 <div class="container">
-<h3 class="text-center">Brands</h3>
+<h3 class="text-center">Old Products</h3>
 <div class="row">
 
 
@@ -174,7 +174,7 @@
         List<ProductDetails> list3 = dao3.getOldProducts();
         for (ProductDetails p : list3){
     %>
-    <div class="col-md-3">
+    <div class="col-md-4">
         <div class="card crd-ho">
             <div class="card-body text-center">
                 <img alt="" src="products/<%=p.getPhotoName()%>"

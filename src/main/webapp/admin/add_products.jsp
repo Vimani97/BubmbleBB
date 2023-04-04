@@ -57,7 +57,14 @@
                                             <option selected>--- Select ---</option>
                                             <option value="Samsung">Samsung</option>
                                             <option value="Apple">Apple</option>
-                                            <option value="HUAWEI">HUAWEI</option>
+                                            <option value="Dell">Dell</option>
+                                            <option value="Asus">Asus</option>
+                                            <option value="Moose">Moose</option>
+                                            <option value="Logitech">Logitech</option>
+                                            <option value="ViewSonic">ViewSonic</option>
+                                            <option value="Citizen">Citizen</option>
+                                            <option value="Huawei">Huawei</option>
+
                                         </select>
                                     </div>
 
@@ -93,7 +100,7 @@
                                     id="exampleFormControlFiled1">
                                 </div>
 
-                                    <button type="submit" class="btn btn-primary">Add Product</button>
+                                    <button type="submit" class="btn btn-dark text-warning">Add Product</button>
 
 
                             </form>

@@ -39,15 +39,15 @@
                 <form action="RegisterServlet" method="post">
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Enter Full Name</label>
+                        <label for="exampleInputEmail1">Enter Full Name*</label>
                         <input type="text" class="form-control" id="exampleInputName1"
-                               aria-describedby="emailHelp" placeholder="Enter your Full Name"
+                               aria-describedby="emailHelp"
                                required="required" name="fname">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
+                        <label for="exampleInputEmail1">Email address*</label>
                         <input type="email" class="form-control" id="exampleInputEmail1"
-                               aria-describedby="emailHelp" placeholder="Enter email"
+                               aria-describedby="emailHelp"
                                required="required" name="uemail">
                     </div>
                     <div class="form-group">
@@ -58,27 +58,27 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Date of Birth</label>
+                        <label for="exampleInputEmail1">Date of Birth*</label>
                         <input type="text" class="form-control" id="exampleInputDOB1"
-                               aria-describedby="emailHelp" placeholder="Enter Date Of Birth"
+                               aria-describedby="emailHelp"
                                required="required" name="udob">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Phone Number</label>
+                        <label for="exampleInputEmail1">Phone Number*</label>
                         <input type="text" class="form-control" id="exampleInputPhone1"
-                               aria-describedby="emailHelp" placeholder="Enter Phone Number"
+                               aria-describedby="emailHelp"
                                required="required" name="uphone">
                     </div>
                     <div class="form-group">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
+                        <label for="exampleInputPassword1">Password*</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1"
                                required="required" name="upass">
                     </div>
                     <div class="form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
-                        <label class="form-check-label" for="exampleCheck1">Agree terms & Condition</label>
+                        <label class="form-check-label" for="exampleCheck1">Are you over 18 years old?</label>
                     </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <button type="submit" class="btn btn-dark text-warning">Submit</button>
                 </form>
                 </div>
             </div>

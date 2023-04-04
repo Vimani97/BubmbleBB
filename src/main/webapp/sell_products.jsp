@@ -76,7 +76,7 @@
                                            id="exampleFormControlFiled1">
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Sell</button>
+                                <button type="submit" class="btn btn-warning">Sell</button>
 
 
                             </form>
